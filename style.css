@@ -1,0 +1,96 @@
+body{
+    
+Font-size: 16px;
+font-family: Poppins;
+font-Weight: 400, 500, 600, 700;
+background-color: hsl(0, 100%, 74%) ;
+background-image: url(photo/bg-intro-desktop.png);
+}
+.container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: #ffffff;
+
+
+}
+.left{
+    text-align: center;
+    
+    display:inline-flex;
+    flex-flow: column wrap;
+    width:40%;
+}
+.right{
+    display:inline-flex;
+    flex-flow: column wrap;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width:50%;
+}
+form{
+    background-color: #ffffff;
+    color:hsl(249, 10%, 26%) ;
+    margin-right: 20px;
+    padding: 20px ;
+}
+form input ,form button{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+form button{
+    background-color: hsl(154, 59%, 51%);
+    color: #ffffff;
+    font-weight: 600;
+}
+form input{
+    border: hsl(249, 10%, 26%)  1px solid;
+}
+form p{
+    font-size: 10px;
+    
+}
+form p span{
+    color: hsl(248, 32%, 49%);
+    font-weight: 600;
+}
+.form-header{
+    width:95% ;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.container a{
+    text-decoration: none;
+    color: hsl(248, 32%, 49%);
+    font-size: 14px;
+}
+.form-login{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+     width:50%;
+}
+.form-login a{
+    text-decoration: none;
+    color: hsl(248, 32%, 49%);
+    font-size: 14px;
+}
+.form-login h1{
+    text-align: center;
+}
