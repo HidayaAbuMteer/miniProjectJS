@@ -95,7 +95,7 @@ if (loginForm) {
     const pass = document.getElementById("passLogin").value;
 
     const users = JSON.parse(localStorage.getItem("users")) || [];
-    const user = users.find(u => u.email === email && u.pass === pass); // هنا "pass"
+    const user = users.find(u => u.email === email && u.pass === pass);
 
     if (!user) {
       alert("Invalid email or password.");
